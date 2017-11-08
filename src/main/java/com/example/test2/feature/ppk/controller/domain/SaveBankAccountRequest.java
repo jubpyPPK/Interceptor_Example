@@ -1,4 +1,4 @@
-package com.example.test2.domain;
+package com.example.test2.feature.ppk.controller.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

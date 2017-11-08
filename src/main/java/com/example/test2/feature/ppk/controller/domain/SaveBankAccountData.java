@@ -1,4 +1,4 @@
-package com.example.test2.domain;
+package com.example.test2.feature.ppk.controller.domain;
 
 /**
  * Created by napat on 11/7/2017 AD.

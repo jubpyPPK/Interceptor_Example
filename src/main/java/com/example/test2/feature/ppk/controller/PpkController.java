@@ -1,10 +1,9 @@
-package com.example.test2.controller;
+package com.example.test2.feature.ppk.controller;
 
-import com.example.test2.domain.ResponseModel;
-import com.example.test2.domain.SaveBankAccountData;
-import com.example.test2.domain.Status;
+import com.example.test2.common.domain.ResponseModel;
+import com.example.test2.feature.ppk.controller.domain.SaveBankAccountData;
+import com.example.test2.common.domain.Status;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,10 +11,10 @@ import org.springframework.web.bind.annotation.*;
  * Created by napat on 11/8/2017 AD.
  */
 @RestController
-@RequestMapping(value = "/test")
-public class TestController {
+@RequestMapping(value = "/ppk")
+public class PpkController {
 
-    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    @RequestMapping(value = "/profile", method = RequestMethod.GET)
     public ResponseEntity<Object> init(@RequestParam String name){
 
         SaveBankAccountData data = new SaveBankAccountData();

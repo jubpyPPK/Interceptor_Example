@@ -1,4 +1,4 @@
-package com.example.test2.domain;
+package com.example.test2.common.domain;
 
 /**
  * Created by napat on 11/8/2017 AD.

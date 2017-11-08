@@ -1,7 +1,7 @@
-package com.example.test2.config;
+package com.example.test2.common.config;
 
-import com.example.test2.utill.Interceptor;
-import com.example.test2.utill.MetricPublishData;
+import com.example.test2.feature.interceptor.Interceptor;
+import com.example.test2.feature.interceptor.MetricPublishData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.example.test2.utill;
+package com.example.test2.feature.interceptor;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;

@@ -1,6 +1,6 @@
-package com.example.test2.utill;
+package com.example.test2.feature.interceptor;
 
-import com.example.test2.domain.ResponseModel;
+import com.example.test2.common.domain.ResponseModel;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
