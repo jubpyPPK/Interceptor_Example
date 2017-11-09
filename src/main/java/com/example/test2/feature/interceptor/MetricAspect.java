@@ -1,6 +1,6 @@
 package com.example.test2.feature.interceptor;
 
-import com.example.test2.common.domain.ResponseModel;
+import com.example.test2.common.domain.GenericResponse;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
@@ -32,8 +32,8 @@ public class MetricAspect {
 
     private String getStatusCode(Object object) {
         String statusCode = "";
-        if(object instanceof ResponseModel) {
-            ResponseModel res = (ResponseModel) object;
+        if(object instanceof GenericResponse) {
+            GenericResponse res = (GenericResponse) object;
             statusCode = String.valueOf(res.getStatus().getCode());
         }
         return statusCode;

@@ -39,8 +39,8 @@ public class Interceptor extends HandlerInterceptorAdapter {
         MetricPublishData metricPublishData = applicationContext.getBean(MetricPublishData.class);
         String statusCode = metricPublishData.getStatusCode();
         System.out.println("After Handler");
-        System.out.println("Status Code :: "+statusCode);
-        System.out.println("Expected Status :: "+getExpectLevel(statusCode));
+        System.out.println("GenericStatus Code :: "+statusCode);
+        System.out.println("Expected GenericStatus :: "+getExpectLevel(statusCode));
     }
 
     private int getExpectLevel(String statusCode){
